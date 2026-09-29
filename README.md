@@ -80,3 +80,7 @@ python3 render_rack.py        # quick preview image
 ```
 
 To change the labels, edit the `PARTS` table at the bottom. For example, `lambda: cassette("PI-HOLE")` makes a new cassette, and `lambda: blade("PI 5")` a new blade.
+
+## Design sketches
+
+The concepts this design grew out of are in `concepts.png` (three layouts) and `concept_b_stack.png` (the stackable version). `sketches.py` and `sketch_stack.py` draw them. `export_glb.py` exports the assembled rack as a coloured GLB file, used for the renders in `renders/`.
